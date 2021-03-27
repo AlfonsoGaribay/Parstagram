@@ -11,7 +11,7 @@ import Parse
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -26,7 +26,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Parse.initialize(with: parseConfig)
             
             // --- end copy
-        
+            // part 2: so this should be in the sceneDelegate according to the forums 
+                /*
+                    if PFUser.current() != nil {
+                        let main = UIStoryboard(name: "Main", bundle: nil)
+                        let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+                        
+                        window?.rootViewController
+                    }
+                */
+            //
         return true
     }
 
