@@ -112,6 +112,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A6AAE17A2692232200A79A27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D77B0AA42605ACF800A8D81B /* PostCell.swift */,
+				D7BBF2C3260FE7200043B42A /* CommentCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6AAE17B2692232F00A79A27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D77B0A4D26058D3700A8D81B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6AAE17C2692233B00A79A27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D77B0A7E2605945000A8D81B /* LoginViewController.swift */,
+				D77B0A832605946500A8D81B /* FeedViewController.swift */,
+				D77B0A9426059F3400A8D81B /* cameraViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D77B0A3B26058D3700A8D81B = {
 			isa = PBXGroup;
 			children = (
@@ -139,15 +166,12 @@
 			children = (
 				D77B0A4726058D3700A8D81B /* AppDelegate.swift */,
 				D77B0A4926058D3700A8D81B /* SceneDelegate.swift */,
-				D77B0A4D26058D3700A8D81B /* Main.storyboard */,
+				A6AAE17C2692233B00A79A27 /* Controllers */,
+				A6AAE17B2692232F00A79A27 /* Views */,
+				A6AAE17A2692232200A79A27 /* Model */,
 				D77B0A5026058D3800A8D81B /* Assets.xcassets */,
 				D77B0A5226058D3800A8D81B /* LaunchScreen.storyboard */,
 				D77B0A5526058D3800A8D81B /* Info.plist */,
-				D77B0A7E2605945000A8D81B /* LoginViewController.swift */,
-				D77B0A832605946500A8D81B /* FeedViewController.swift */,
-				D77B0A9426059F3400A8D81B /* cameraViewController.swift */,
-				D77B0AA42605ACF800A8D81B /* PostCell.swift */,
-				D7BBF2C3260FE7200043B42A /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
